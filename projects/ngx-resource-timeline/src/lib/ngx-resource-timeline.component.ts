@@ -16,7 +16,7 @@ import moment from 'moment';
 import {Subscription} from 'rxjs';
 
 @Component({
-  selector: 'ngx-ts[items][periods][sections]',
+  selector: 'ngx-rt[items][periods][sections]',
   templateUrl: './ngx-resource-timeline.component.html',
   styleUrls: ['./ngx-resource-timeline.component.css']
 })

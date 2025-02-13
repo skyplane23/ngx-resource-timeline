@@ -1,7 +1,7 @@
 import {Component, OnInit} from '@angular/core';
 import {Item, Period, Section, Events} from '../../projects/ngx-resource-timeline/src/lib/ngx-resource-timeline.model';
 import {NgxResourceTimelineService} from '../../projects/ngx-resource-timeline/src/lib/ngx-resource-timeline.service';
-import * as moment from 'moment';
+import moment from 'moment';
 
 @Component({
   selector: 'app-root',

@@ -1,8 +1,8 @@
-import { TestBed, async } from '@angular/core/testing';
+import { TestBed } from '@angular/core/testing';
 import { AppComponent } from './app.component';
 
 describe('AppComponent', () => {
-  beforeEach(async(() => {
+  beforeEach((() => {
     TestBed.configureTestingModule({
       declarations: [
         AppComponent
@@ -19,6 +19,9 @@ describe('AppComponent', () => {
   it(`should have as title 'ResourceTimeline'`, () => {
     const fixture = TestBed.createComponent(AppComponent);
     const app = fixture.debugElement.componentInstance;
+
+    console.log(app.title);
+
     expect(app.title).toEqual('ResourceTimeline');
   });
 
@@ -26,6 +29,6 @@ describe('AppComponent', () => {
     const fixture = TestBed.createComponent(AppComponent);
     fixture.detectChanges();
     const compiled = fixture.debugElement.nativeElement;
-    expect(compiled.querySelector('h1').textContent).toContain('Welcome to ResourceTimeline!');
+    expect(compiled.querySelector('h1').textContent).toContain('Resource Timeline');
   });
 });
