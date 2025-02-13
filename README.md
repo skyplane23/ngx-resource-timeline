@@ -4,10 +4,10 @@ Below is an updated README for your newly named package, **Angular Resource Time
 
 # Angular Resource Timeline
 
-[![GitHub issues](https://img.shields.io/github/issues/YOUR_USERNAME/ngx-resource-timeline.svg)](https://github.com/YOUR_USERNAME/ngx-resource-timeline/issues)
-[![GitHub forks](https://img.shields.io/github/forks/YOUR_USERNAME/ngx-resource-timeline.svg)](https://github.com/YOUR_USERNAME/ngx-resource-timeline/network)
-[![GitHub stars](https://img.shields.io/github/stars/YOUR_USERNAME/ngx-resource-timeline.svg)](https://github.com/YOUR_USERNAME/ngx-resource-timeline/stargazers)
-[![GitHub license](https://img.shields.io/github/license/YOUR_USERNAME/ngx-resource-timeline.svg)](https://github.com/YOUR_USERNAME/ngx-resource-timeline/blob/main/LICENSE)
+[![GitHub issues](https://img.shields.io/github/issues/skyplane23/ngx-resource-timeline.svg)](https://github.com/skyplane23/ngx-resource-timeline/issues)
+[![GitHub forks](https://img.shields.io/github/forks/skyplane23/ngx-resource-timeline.svg)](https://github.com/skyplane23/ngx-resource-timeline/network)
+[![GitHub stars](https://img.shields.io/github/stars/skyplane23/ngx-resource-timeline.svg)](https://github.com/skyplane23/ngx-resource-timeline/stargazers)
+[![GitHub license](https://img.shields.io/github/license/skyplane23/ngx-resource-timeline.svg)](https://github.com/skyplane23/ngx-resource-timeline/blob/main/LICENSE)
 [![Latest Version](https://img.shields.io/npm/v/ngx-resource-timeline/latest.svg)](https://www.npmjs.com/package/ngx-resource-timeline)
 [![Downloads](https://img.shields.io/npm/dt/ngx-resource-timeline.svg)](https://www.npmjs.com/package/ngx-resource-timeline)
 
@@ -286,7 +286,7 @@ Use these methods to dynamically manipulate items and sections:
 
 ## Demo
 
-[Demo](https://github.com/YOUR_USERNAME/ngx-resource-timeline-demo)  
+[Demo](https://github.com/skyplane23/ngx-resource-timeline-demo)  
 *(Replace with a live demo URL if available.)*
 
 ---
