@@ -13,11 +13,11 @@ A simple Angular timeline scheduler library, now reimagined as **Angular Resourc
 
 ## Compatibility
 
-This release is **v15.0.1** and is compatible with **Angular 15**. Future releases will target newer Angular versions.
+This release is **v15.0.2** and is compatible with **Angular 15**. Future releases will target newer Angular versions.
 
 | Library Version | Angular Compatibility | Notes                                  |
 |-----------------|-----------------------|----------------------------------------|
-| **15.0.1**      | Angular 15            | Current release                        |
+| **15.0.2**      | Angular 15            | Current release                        |
 | Upcoming        | Angular 16 and later  | Planned releases for newer Angular versions |
 
 ---
@@ -30,7 +30,7 @@ Install via [npm](https://npmjs.com):
 npm i ngx-resource-timeline
 ```
 
-> **Note:** Version **v15.0.1** is compatible with Angular **v15.0.1+**.
+> **Note:** Version **v15.0.2** is compatible with Angular **v15.0.2+**.
 
 ---
 
