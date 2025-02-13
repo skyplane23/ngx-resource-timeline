@@ -1,5 +1,5 @@
 {
-  "name": "ngx-time-scheduler",
+  "name": "ngx-resource-timeline",
   "version": "2.0.0",
   "description": "A simple Angular Timeline Scheduler library",
   "author": {
@@ -11,12 +11,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/abhishekjain12/ngx-time-scheduler.git"
+    "url": "https://github.com/abhishekjain12/ngx-resource-timeline.git"
   },
   "bugs": {
-    "url": "https://github.com/abhishekja in12/ngx-time-scheduler/issues"
+    "url": "https://github.com/abhishekja in12/ngx-resource-timeline/issues"
   },
-  "homepage": "https://github.com/abhishekjain12/ngx-time-scheduler",
+  "homepage": "https://github.com/abhishekjain12/ngx-resource-timeline",
   "keywords": [
     "angular",
     "time-scheduler",
@@ -26,7 +26,7 @@
     "timeline-scheduler",
     "calendar-scheduler",
     "timeline",
-    "ngx-time-scheduler"
+    "ngx-resource-timeline"
   ],
   "license": "MIT",
   "peerDependencies": {

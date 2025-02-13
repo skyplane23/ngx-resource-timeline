@@ -20,11 +20,11 @@
       "dom"
     ],
     "paths": {
-      "ngx-time-scheduler": [
-        "dist/ngx-time-scheduler"
+      "ngx-resource-timeline": [
+        "dist/ngx-resource-timeline"
       ],
-      "ngx-time-scheduler/*": [
-        "dist/ngx-time-scheduler/*"
+      "ngx-resource-timeline/*": [
+        "dist/ngx-resource-timeline/*"
       ]
     },
     "useDefineForClassFields": false,

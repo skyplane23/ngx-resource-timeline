@@ -1,6 +1,6 @@
 import {ChangeDetectorRef, Component, ElementRef, Input, OnDestroy, OnInit, ViewChild} from '@angular/core';
 import {CdkDragDrop} from '@angular/cdk/drag-drop';
-import {NgxTimeSchedulerService} from './ngx-time-scheduler.service';
+import {NgxResourceTimelineService} from './ngx-resource-timeline.service';
 import {
   HeaderDetails,
   Header,
@@ -11,16 +11,16 @@ import {
   Section,
   Text,
   Events
-} from './ngx-time-scheduler.model';
+} from './ngx-resource-timeline.model';
 import moment from 'moment';
 import {Subscription} from 'rxjs';
 
 @Component({
   selector: 'ngx-ts[items][periods][sections]',
-  templateUrl: './ngx-time-scheduler.component.html',
-  styleUrls: ['./ngx-time-scheduler.component.css']
+  templateUrl: './ngx-resource-timeline.component.html',
+  styleUrls: ['./ngx-resource-timeline.component.css']
 })
-export class NgxTimeSchedulerComponent implements OnInit, OnDestroy {
+export class NgxResourceTimelineComponent implements OnInit, OnDestroy {
   @ViewChild('sectionTd') set SectionTd(elementRef: ElementRef) {
     this.SectionLeftMeasure = elementRef.nativeElement.clientWidth + 'px';
     this.changeDetector.detectChanges();
@@ -61,7 +61,7 @@ export class NgxTimeSchedulerComponent implements OnInit, OnDestroy {
 
   constructor(
     private changeDetector: ChangeDetectorRef,
-    private service: NgxTimeSchedulerService
+    private service: NgxResourceTimelineService
   ) {
     moment.locale(this.locale);
   }

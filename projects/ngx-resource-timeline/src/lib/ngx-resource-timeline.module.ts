@@ -1,15 +1,15 @@
 import {NgModule} from '@angular/core';
-import {NgxTimeSchedulerComponent} from './ngx-time-scheduler.component';
+import {NgxResourceTimelineComponent} from './ngx-resource-timeline.component';
 import {CommonModule} from '@angular/common';
 import {DragDropModule} from '@angular/cdk/drag-drop';
 
 @NgModule({
-  declarations: [NgxTimeSchedulerComponent],
+  declarations: [NgxResourceTimelineComponent],
   imports: [
     CommonModule,
     DragDropModule
   ],
-  exports: [NgxTimeSchedulerComponent]
+  exports: [NgxResourceTimelineComponent]
 })
-export class NgxTimeSchedulerModule {
+export class NgxResourceTimelineModule {
 }

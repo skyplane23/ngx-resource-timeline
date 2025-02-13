@@ -40,17 +40,17 @@ npm i ngx-resource-timeline
 
 ## Getting Started
 
-### 1. Import the `NgxTimeSchedulerModule`
+### 1. Import the `NgxResourceTimelineModule`
 
 In your app module, import the module from **ngx-resource-timeline**:
 
 ```typescript
-import { NgxTimeSchedulerModule } from 'ngx-resource-timeline';
+import { NgxResourceTimelineModule } from 'ngx-resource-timeline';
 
 @NgModule({
   imports: [
     BrowserModule,
-    NgxTimeSchedulerModule,
+    NgxResourceTimelineModule,
   ],
   // ... other properties
 })
@@ -78,7 +78,7 @@ Set up your component (e.g., `app.component.ts`) as follows:
 
 ```typescript
 import { Component, OnInit } from '@angular/core';
-import { Item, Period, Section, Events, NgxTimeSchedulerService } from 'ngx-resource-timeline';
+import { Item, Period, Section, Events, NgxResourceTimelineService } from 'ngx-resource-timeline';
 import * as moment from 'moment';
 
 @Component({
@@ -91,7 +91,7 @@ export class AppComponent implements OnInit {
   sections: Section[];
   items: Item[];
 
-  constructor(private service: NgxTimeSchedulerService) { }
+  constructor(private service: NgxResourceTimelineService) { }
 
   ngOnInit() {
     this.events.SectionClickEvent = (section) => console.log('Section clicked:', section);
@@ -287,13 +287,12 @@ Use these methods to dynamically manipulate items and sections:
 ## Demo
 
 [Demo](https://github.com/skyplane23/ngx-resource-timeline-demo)  
-*(Replace with a live demo URL if available.)*
 
 ---
 
 ## Credits
 
-This project is based on the work originally created by **[Zallist](https://github.com/Zallist/TimeScheduler)** and further developed by **[abhishekjain12](https://github.com/abhishekjain12/ngx-time-scheduler)**.  
+This project is based on the work originally created by **[Zallist](https://github.com/Zallist/ResourceTimeline)** and further developed by **[abhishekjain12](https://github.com/abhishekjain12/ngx-time-scheduler)**.  
 **Angular Resource Timeline** updates this work to support **Angular 15**. Future releases will target newer Angular versions.
 
 ---

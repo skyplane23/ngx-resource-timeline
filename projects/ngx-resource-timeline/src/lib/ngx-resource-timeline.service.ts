@@ -1,11 +1,11 @@
 import {Injectable} from '@angular/core';
 import {Subject} from 'rxjs';
-import {Item, Section} from './ngx-time-scheduler.model';
+import {Item, Section} from './ngx-resource-timeline.model';
 
 @Injectable({
   providedIn: 'root'
 })
-export class NgxTimeSchedulerService {
+export class NgxResourceTimelineService {
 
   public item = new Subject<Item>();
   public itemAdd = new Subject<Item>();
