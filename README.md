@@ -57,19 +57,19 @@ import { NgxResourceTimelineModule } from 'ngx-resource-timeline';
 export class AppModule { }
 ```
 
-### 2. Use the `<ngx-ts>` Component
+### 2. Use the `<ngx-rt>` Component
 
-Add the `<ngx-ts>` component in your template (e.g., `app.component.html`):
+Add the `<ngx-rt>` component in your template (e.g., `app.component.html`):
 
 ```html
-<ngx-ts
+<ngx-rt
   [items]="items"
   [periods]="periods"
   [sections]="sections"
   [events]="events"
   [showBusinessDayOnly]="false"
   [allowDragging]="true"
-></ngx-ts>
+></ngx-rt>
 ```
 
 ### 3. Configure Your Component

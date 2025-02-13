@@ -125,7 +125,7 @@
       "root": "projects/ngx-resource-timeline",
       "sourceRoot": "projects/ngx-resource-timeline/src",
       "projectType": "library",
-      "prefix": "ngx-ts",
+      "prefix": "ngx-rt",
       "architect": {
         "build": {
           "builder": "@angular-devkit/build-angular:ng-packagr",
