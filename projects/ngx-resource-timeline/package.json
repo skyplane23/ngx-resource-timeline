@@ -1,22 +1,27 @@
 {
   "name": "ngx-resource-timeline",
-  "version": "2.0.0",
-  "description": "A simple Angular Timeline Scheduler library",
+  "version": "15.0.0",
+  "description": "A simple Angular Resource Timeline library",
   "author": {
     "name": "Abhishek Jain",
     "email": "jabi1210@gmail.com"
   },
+  "maintainers": [
+    {
+      "name": "Liviu Nicolae Moraru"
+    }
+  ],
   "publishConfig": {
     "registry": "https://registry.npmjs.org/"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/abhishekjain12/ngx-resource-timeline.git"
+    "url": "https://github.com/skyplane23/ngx-resource-timeline.git"
   },
   "bugs": {
-    "url": "https://github.com/abhishekja in12/ngx-resource-timeline/issues"
+    "url": "https://github.com/skyplane23/ngx-resource-timeline/issues"
   },
-  "homepage": "https://github.com/abhishekjain12/ngx-resource-timeline",
+  "homepage": "https://github.com/skyplane23/ngx-resource-timeline",
   "keywords": [
     "angular",
     "time-scheduler",
