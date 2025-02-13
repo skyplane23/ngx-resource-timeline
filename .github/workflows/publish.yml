@@ -2,6 +2,8 @@ name: Publish Package
 
 on:
   push:
+    tags:
+      - 'v*.*.*'   # Trigger on version tags like v15.0.0, v16.0.0, etc.
   workflow_dispatch:  # Enables manual triggering via the GitHub Actions tab
 
 jobs:
