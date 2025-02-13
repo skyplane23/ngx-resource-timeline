@@ -282,7 +282,7 @@ Use these methods to dynamically manipulate items and sections:
 
 ## Demo
 
-[Demo](https://github.com/skyplane23/ngx-resource-timeline-demo)  
+[Demo](https://skyplane23.github.io/ngx-resource-timeline/)  
 
 ---
 
