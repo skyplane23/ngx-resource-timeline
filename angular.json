@@ -69,18 +69,18 @@
         "serve": {
           "builder": "@angular-devkit/build-angular:dev-server",
           "options": {
-            "browserTarget": "ResourceTimeline:build"
+            "buildTarget": "ResourceTimeline:build"
           },
           "configurations": {
             "production": {
-              "browserTarget": "ResourceTimeline:build:production"
+              "buildTarget": "ResourceTimeline:build:production"
             }
           }
         },
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "ResourceTimeline:build"
+            "buildTarget": "ResourceTimeline:build"
           }
         },
         "test": {
