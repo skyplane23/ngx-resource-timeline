@@ -16,9 +16,10 @@ import moment from 'moment';
 import {Subscription} from 'rxjs';
 
 @Component({
-  selector: 'ngx-rt[items][periods][sections]',
-  templateUrl: './ngx-resource-timeline.component.html',
-  styleUrls: ['./ngx-resource-timeline.component.css']
+    selector: 'ngx-rt[items][periods][sections]',
+    templateUrl: './ngx-resource-timeline.component.html',
+    styleUrls: ['./ngx-resource-timeline.component.css'],
+    standalone: false
 })
 export class NgxResourceTimelineComponent implements OnInit, OnDestroy {
   @ViewChild('sectionTd') set SectionTd(elementRef: ElementRef) {

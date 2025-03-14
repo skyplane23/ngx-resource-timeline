@@ -2,10 +2,10 @@
   "compileOnSave": false,
   "compilerOptions": {
     "baseUrl": "./",
-    "downlevelIteration": true,
     "outDir": "./dist/out-tsc",
     "sourceMap": true,
     "declaration": false,
+    "esModuleInterop": true,
     "module": "es2020",
     "moduleResolution": "node",
     "emitDecoratorMetadata": true,
@@ -27,7 +27,6 @@
         "dist/ngx-resource-timeline/*"
       ]
     },
-    "useDefineForClassFields": false,
-    "allowSyntheticDefaultImports": true
+    "useDefineForClassFields": false
   }
 }
