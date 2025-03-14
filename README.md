@@ -28,7 +28,7 @@ This release is **v19.0.0** and is compatible with **Angular 19**. Future releas
 
 ## Installation
 
-Install via [npm](https://npmjs.com):
+Install via [npm](https://www.npmjs.com/package/ngx-resource-timeline):
 
 ```bash
 npm i ngx-resource-timeline
