@@ -1,0 +1,83 @@
+{
+    "root": true,
+    "ignorePatterns": [
+        "projects/**/*"
+    ],
+    "overrides": [
+        {
+            "files": [
+                "*.ts"
+            ],
+            "extends": [
+                "eslint:recommended",
+                "plugin:@typescript-eslint/recommended",
+                "plugin:@angular-eslint/recommended",
+                "plugin:@angular-eslint/template/process-inline-templates"
+            ],
+            "rules": {
+                "@angular-eslint/directive-selector": [
+                    "error",
+                    {
+                        "type": "attribute",
+                        "prefix": "app",
+                        "style": "camelCase"
+                    }
+                ],
+                "@angular-eslint/component-selector": [
+                    "error",
+                    {
+                        "type": "element",
+                        "prefix": "app",
+                        "style": "kebab-case"
+                    }
+                ],
+                "@angular-eslint/prefer-standalone": "off",
+                "@angular-eslint/no-output-rename": "off",
+                "@angular-eslint/use-lifecycle-interface": "error",
+                "@angular-eslint/no-output-on-prefix": "off",
+                "@typescript-eslint/no-duplicate-enum-values": "off",
+                "@typescript-eslint/no-explicit-any": "off",
+                "@typescript-eslint/no-unused-vars": [
+                    "warn",
+                    {
+                        "argsIgnorePattern": "^_",
+                        "varsIgnorePattern": "^_",
+                        "caughtErrorsIgnorePattern": "^_"
+                    }
+                ],
+                "@typescript-eslint/ban-ts-comment": [
+                    "error",
+                    {
+                        "ts-expect-error": "allow-with-description",
+                        "ts-ignore": "allow-with-description",
+                        "ts-nocheck": "allow-with-description",
+                        "ts-check": "allow-with-description"
+                    }
+                ],
+                "eqeqeq": [
+                    "error",
+                    "always"
+                ],
+                "prefer-const": "error",
+                "no-var": "error",
+                "max-lines": [
+                    "off",
+                    {
+                        "max": 500,
+                        "skipBlankLines": true,
+                        "skipComments": true
+                    }
+                ]
+            }
+        },
+        {
+            "files": [
+                "*.html"
+            ],
+            "extends": [
+                "plugin:@angular-eslint/template/recommended"
+            ],
+            "rules": {}
+        }
+    ]
+}

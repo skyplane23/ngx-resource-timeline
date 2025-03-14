@@ -99,6 +99,17 @@
               "src/assets"
             ]
           }
+        },
+        "lint": {
+          "builder": "@angular-eslint/builder:lint",
+          "options": {
+            "lintFilePatterns": [
+              "src/**/*.ts",
+              "src/**/*.html",
+              "projects/ngx-resource-timeline/src/**/*.ts",
+              "projects/ngx-resource-timeline/src/**/*.html"
+            ]
+          }
         }
       }
     },
@@ -151,6 +162,7 @@
     }
   },
   "cli": {
-    "analytics": false
+    "analytics": false,
+    "schematicCollections": ["angular-eslint"]
   }
 }
