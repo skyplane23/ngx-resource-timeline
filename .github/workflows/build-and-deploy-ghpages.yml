@@ -3,7 +3,6 @@ name: Build and Deploy Angular to GitHub Pages
 on:
   release:
     types: [published]
-  push:
   workflow_dispatch:    # Allows manual triggering from GitHub UI
 
 jobs:
