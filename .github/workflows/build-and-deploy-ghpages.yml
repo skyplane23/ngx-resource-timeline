@@ -24,7 +24,7 @@ jobs:
         run: npm ci
       
       - name: Build
-        run: npm run build -- --base-href="/${{ github.repository.name }}/"
+        run: npm run build -- --base-href="/${{ github.event.repository.name }}/"
       
       - name: Deploy to GitHub Pages
         uses: JamesIves/github-pages-deploy-action@v4
