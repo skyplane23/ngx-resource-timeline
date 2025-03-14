@@ -27,11 +27,11 @@ jobs:
         run: npm run build
 
       - name: List files
-        run: ls -la ./dist/ngx-resource-timeline
+        run: ls -la ./dist
       
       - name: Deploy to GitHub Pages
         uses: JamesIves/github-pages-deploy-action@v4
         with:
-          folder: ./dist/ngx-resource-timeline/demo/browser
+          folder: ./dist/demo/browser
           branch: gh-pages
           token: ${{ secrets.GITHUB_TOKEN }}
