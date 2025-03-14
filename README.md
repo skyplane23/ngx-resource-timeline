@@ -13,14 +13,15 @@ A simple Angular timeline scheduler library, now reimagined as **Angular Resourc
 
 ## Compatibility
 
-This release is **v17.0.0** and is compatible with **Angular 17**. Future releases will target newer Angular versions.
+This release is **v18.0.0** and is compatible with **Angular 18**. Future releases will target newer Angular versions.
 
 | Library Version | Angular Compatibility | Notes                                  |
 |-----------------|-----------------------|----------------------------------------|
-| **17.0.0**      | Angular 17           | Latest release                        |
-| **16.0.0**      | Angular 16           | Legacy release                         |
-| **15.0.2**      | Angular 15           | Legacy release                         |
-| Upcoming        | Angular 17 and later | Planned releases for newer Angular versions |
+| **18.0.0**      | Angular 18           | Latest release                          |
+| **17.0.0**      | Angular 17           | Legacy release                          |
+| **16.0.0**      | Angular 16           | Legacy release                          |
+| **15.0.2**      | Angular 15           | Legacy release                          |
+| Upcoming        | Angular 19 and later | Planned releases for newer Angular versions |
 
 ---
 
@@ -32,7 +33,7 @@ Install via [npm](https://npmjs.com):
 npm i ngx-resource-timeline
 ```
 
-  > **Note:** Version **v17.0.0** is compatible with Angular **v17.0.0**.
+  > **Note:** Version **v18.0.0** is compatible with Angular **v18.0.0**.
 
 ---
 
@@ -291,7 +292,7 @@ Use these methods to dynamically manipulate items and sections:
 ## Credits
 
 This project is based on the work originally created by **[Zallist](https://github.com/Zallist/ResourceTimeline)** and further developed by **[abhishekjain12](https://github.com/abhishekjain12/ngx-time-scheduler)**.  
-**Angular Resource Timeline** updates this work to support **Angular 15**, **Angular 16** and **Angular 17**. Future releases will target newer Angular versions.
+**Angular Resource Timeline** updates this work to support **Angular 15**, **Angular 16**, **Angular 17** and **Angular 18**. Future releases will target newer Angular versions.
 
 ---
 
